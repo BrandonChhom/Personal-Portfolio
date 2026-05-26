@@ -1,0 +1,66 @@
+import Image from "next/image";
+
+export default function ProjectCard({
+  title,
+  description,
+  technologies,
+  image,
+  github,
+  demo,
+}) {
+  return (
+    <article className="flex h-full flex-col rounded-2xl border border-slate-200 bg-white p-7 shadow-sm transition duration-200 hover:-translate-y-1 hover:border-indigo-200 hover:shadow-lg hover:shadow-slate-200/60">
+      {image && (
+        <div className="relative mb-6 aspect-video overflow-hidden rounded-xl border border-slate-100 bg-slate-100">
+          <Image
+            src={image}
+            alt={`${title} project preview`}
+            fill
+            className="object-cover"
+          />
+        </div>
+      )}
+
+      <h3 className="text-xl font-semibold text-slate-950">{title}</h3>
+
+      <p className="mt-4 flex-1 leading-7 text-slate-600">{description}</p>
+
+      <div className="mt-7 flex flex-wrap gap-2">
+        {technologies.map((technology) => (
+          <span
+            key={technology}
+            className="rounded-full bg-indigo-50 px-3 py-1 text-sm font-medium text-indigo-700"
+          >
+            {technology}
+          </span>
+        ))}
+      </div>
+
+      {(github || demo) && (
+        <div className="mt-7 flex flex-wrap gap-4 border-t border-slate-100 pt-5">
+          {github && (
+            <a
+              href={github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm font-semibold text-indigo-600 transition-colors duration-200 hover:text-indigo-800"
+            >
+              GitHub Repository →
+            </a>
+          )}
+
+          {demo && (
+            <a
+              href={demo}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm font-semibold text-indigo-600 transition-colors duration-200 hover:text-indigo-800"
+            >
+              Live Demo →
+            </a>
+          )}
+        </div>
+      )}
+    </article>
+  );
+}
