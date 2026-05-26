@@ -56,7 +56,7 @@ export default function ProjectCard({
               rel="noopener noreferrer"
               className="text-sm font-semibold text-indigo-600 transition-colors duration-200 hover:text-indigo-800"
             >
-              Live Demo →
+              Demo →
             </a>
           )}
         </div>
