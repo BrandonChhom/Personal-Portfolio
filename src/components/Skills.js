@@ -11,15 +11,6 @@ export default function Skills() {
           Skills
         </p>
 
-        <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-950 sm:text-4xl">
-          Technical Skills
-        </h2>
-
-        <p className="mt-5 max-w-2xl text-lg leading-8 text-slate-600">
-          Technologies and tools I have used across projects, coursework, and
-          software development experience.
-        </p>
-
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {skills.map((skillGroup) => (
             <article

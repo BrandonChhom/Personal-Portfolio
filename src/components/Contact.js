@@ -6,10 +6,6 @@ export default function Contact() {
           Contact
         </p>
 
-        <h2 className="mt-4 text-3xl font-bold tracking-tight text-950 sm:text-4xl">
-          Let&apos;s Connect
-        </h2>
-
         <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-black">
           I am interested in software engineering opportunities and would be
           happy to connect about internships, projects, or professional

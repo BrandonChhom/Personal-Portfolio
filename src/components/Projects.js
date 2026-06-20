@@ -9,15 +9,6 @@ export default function Projects() {
           Projects
         </p>
 
-        <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-950 sm:text-4xl">
-          Featured Projects
-        </h2>
-
-        <p className="mt-5 max-w-3xl text-lg leading-8 text-slate-600">
-          A selection of projects I have built while developing my skills in
-          full-stack development, cloud technologies, and data analysis.
-        </p>
-
         <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((project) => (
             <ProjectCard

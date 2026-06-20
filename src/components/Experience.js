@@ -11,15 +11,6 @@ export default function Experience() {
           Experience
         </p>
 
-        <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-950 sm:text-4xl">
-          Relevant Experience
-        </h2>
-
-        <p className="mt-5 max-w-2xl text-lg leading-8 text-slate-600">
-          Professional and academic experiences that have helped develop my
-          technical and problem-solving skills.
-        </p>
-
         <div className="mt-12 space-y-6">
           {experience.map((role) => (
             <article

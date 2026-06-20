@@ -6,10 +6,6 @@ export default function About() {
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-indigo-600">
             About
           </p>
-
-          <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-950 sm:text-4xl">
-            About Me
-          </h2>
         </div>
 
         <div>
