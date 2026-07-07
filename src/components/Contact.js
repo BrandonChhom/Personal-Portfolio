@@ -34,7 +34,7 @@ export default function Contact() {
           </a>
 
           <a
-            href="https://github.com/SopeckChhom"
+            href="https://github.com/BrandonChhom"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"

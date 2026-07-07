@@ -14,7 +14,7 @@ const projects = [
       "A campus facility review platform that helps UC students discover and review dining halls, lecture halls, and recreation centers.",
     technologies: ["React", "Firebase", "Google Maps API"],
     image: "/project-images/UCVibe.png",
-    github: "https://github.com/SopeckChhom/UCVibe",
+    github: "https://github.com/BrandonChhom/UCVibe",
     demo: "https://ucvibe-web.web.app/",
   },
   {
@@ -23,7 +23,7 @@ const projects = [
       "A data analysis dashboard for exploring UC admissions trends, acceptance rates, and academic statistics.",
     technologies: ["Python", "pandas", "matplotlib", "Streamlit"],
     image: "/project-images/UC-Admissions-Data-Explorer.png",
-    github: "https://github.com/SopeckChhom/UCAdmissionsExplorer",
+    github: "https://github.com/BrandonChhom/UCAdmissionsExplorer",
     demo: "https://uc-admissions-explorer.streamlit.app/",
   },
 ];
