@@ -24,9 +24,7 @@ export default function Hero() {
 
           <p className="mt-7 max-w-2xl text-lg leading-8 text-slate-300">
             I am interested in full-stack development and ML/AI. I am currently
-            looking for software engineering internship opportunities. I build
-            practical applications using technologies such as React, Node.js,
-            and Python.
+            looking for software engineering internship opportunities.
           </p>
 
           <div className="mt-9 flex flex-wrap items-center gap-4">
