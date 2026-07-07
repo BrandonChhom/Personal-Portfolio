@@ -28,7 +28,7 @@ export default function Hero() {
           <div className="mt-9 flex flex-wrap items-center gap-4">
             <a
               href="#projects"
-              className="w-full rounded-full border border-slate-700 bg-slate-900 px-6 py-3 text-center font-medium text-slate-200 transition duration-200 hover:border-indigo-400 hover:text-indigo-400 sm:w-auto"
+              className="w-full rounded-full border border-slate-700 px-6 py-3 text-center font-medium text-slate-200 transition duration-200 hover:border-indigo-400 hover:text-indigo-400 sm:w-auto"
             >
               Projects
             </a>
@@ -37,7 +37,7 @@ export default function Hero() {
               href="/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full rounded-full border border-slate-700 bg-slate-900 px-6 py-3 text-center font-medium text-slate-200 transition duration-200 hover:border-indigo-400 hover:text-indigo-400 sm:w-auto"
+              className="w-full rounded-full border border-slate-700 px-6 py-3 text-center font-medium text-slate-200 transition duration-200 hover:border-indigo-400 hover:text-indigo-400 sm:w-auto"
             >
               Résumé
             </a>
@@ -47,7 +47,7 @@ export default function Hero() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
-              className="flex h-12 w-12 items-center justify-center rounded-full border border-slate-700 bg-slate-900 text-slate-200 transition duration-200 hover:border-indigo-400 hover:text-indigo-400"
+              className="flex h-12 w-12 items-center justify-center rounded-full border border-slate-700 text-slate-200 transition duration-200 hover:border-indigo-400 hover:text-indigo-400"
             >
               <LinkedInIcon className="h-5 w-5" />
             </a>
@@ -57,7 +57,7 @@ export default function Hero() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"
-              className="flex h-12 w-12 items-center justify-center rounded-full border border-slate-700 bg-slate-900 text-slate-200 transition duration-200 hover:border-indigo-400 hover:text-indigo-400"
+              className="flex h-12 w-12 items-center justify-center rounded-full border border-slate-700 text-slate-200 transition duration-200 hover:border-indigo-400 hover:text-indigo-400"
             >
               <GitHubIcon className="h-5 w-5" />
             </a>
@@ -69,7 +69,7 @@ export default function Hero() {
           delay={150}
           className="mx-auto w-full max-w-70 sm:max-w-[320px] lg:max-w-none"
         >
-          <div className="rounded-full border border-slate-800 bg-slate-900 p-3 shadow-sm">
+          <div className="rounded-full border border-slate-800  p-3 shadow-sm">
             <div className="relative aspect-square overflow-hidden rounded-full bg-slate-800">
               <Image
                 src="/profile-photo2.jpeg"
