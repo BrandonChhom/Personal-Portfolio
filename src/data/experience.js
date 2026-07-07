@@ -2,15 +2,15 @@ const experience = [
   {
     title: "Software Engineer Intern",
     organization: "IDX Exchange",
-    date: "Incoming Summer 2026",
-    location: "Remote",
+    date: "Summer 2026",
+    location: "Boise, ID",
     description:
       "Incoming software engineering internship focused on contributing to product development and gaining experience in a professional engineering environment.",
   },
   {
     title: "Software Engineer Intern",
     organization: "Selene",
-    date: "Incoming Summer 2026",
+    date: "Summer 2026",
     location: "Remote",
     description:
       "Incoming software engineering internship where I will continue building practical development experience and contributing to software projects.",
