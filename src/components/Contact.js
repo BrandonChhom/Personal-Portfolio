@@ -1,44 +1,49 @@
+import Reveal from "./Reveal";
+import SectionHeading from "./SectionHeading";
+import { GitHubIcon, LinkedInIcon, MailIcon } from "./icons";
+
 export default function Contact() {
   return (
     <section id="contact" className="scroll-mt-24 px-6 py-16 sm:py-24">
-      <div className="mx-auto max-w-6xl rounded-3xl bg-slate-100 px-6 py-10 sm:px-12 sm:py-16">
-        <p className="text-sm font-semibold uppercase tracking-[0.2em] text-indigo-600">
-          Contact
-        </p>
+      <Reveal className="mx-auto max-w-6xl">
+        <SectionHeading number="04" label="Contact" />
 
-        <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-black">
+        <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
           I am interested in software engineering opportunities and would be
           happy to connect about internships, projects, or professional
           opportunities.
         </p>
 
-        <div className="mt-9 flex flex-wrap gap-4">
+        <div className="mt-9 flex flex-wrap items-center gap-4">
           <a
             href="mailto:s.chhom15@gmail.com"
-            className="w-full rounded-full bg-indigo-600 px-6 py-3 text-center font-medium text-white transition duration-200 hover:bg-indigo-400 sm:w-auto"
+            aria-label="Email me"
+            className="flex h-12 w-12 items-center justify-center rounded-full border border-slate-500 text-white transition duration-200 hover:border-indigo-400 hover:text-indigo-400"
           >
-            Email Me
+            <MailIcon className="h-5 w-5" />
           </a>
 
           <a
             href="https://linkedin.com/in/brandon-chhom"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full rounded-full border border-slate-700 px-6 py-3 text-center font-medium text-black transition duration-200 hover:border-indigo-600 hover:text-indigo-600 sm:w-auto"
+            aria-label="LinkedIn"
+            className="flex h-12 w-12 items-center justify-center rounded-full border border-slate-500 text-white transition duration-200 hover:border-indigo-400 hover:text-indigo-400"
           >
-            LinkedIn
+            <LinkedInIcon className="h-5 w-5" />
           </a>
 
           <a
             href="https://github.com/SopeckChhom"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full rounded-full border border-slate-700 px-6 py-3 text-center font-medium text-black transition duration-200 hover:border-indigo-600 hover:text-indigo-600 sm:w-auto"
+            aria-label="GitHub"
+            className="flex h-12 w-12 items-center justify-center rounded-full border border-slate-500 text-white transition duration-200 hover:border-indigo-400 hover:text-indigo-400"
           >
-            GitHub
+            <GitHubIcon className="h-5 w-5" />
           </a>
         </div>
-      </div>
+      </Reveal>
     </section>
   );
 }

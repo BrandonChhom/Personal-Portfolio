@@ -21,7 +21,6 @@ const skills = [
       "Firebase",
       "MySQL",
       "Streamlit",
-      "Claude",
     ],
   },
 ];
