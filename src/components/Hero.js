@@ -8,7 +8,10 @@ export default function Hero() {
       <div className="relative mx-auto grid max-w-6xl items-center gap-12 px-6 py-16 sm:py-20 lg:min-h-[calc(100svh-65px)] lg:grid-cols-[1fr_360px]">
         <Reveal>
           <p className="mb-5 text-sm font-semibold uppercase tracking-[0.2em] text-indigo-400">
-            Computer Science Student at UC Santa Cruz
+            <span className="text-slate-300">
+              Computer Science Student @{" "}
+              <span className="text-indigo-400">UC Santa Cruz</span>
+            </span>
           </p>
 
           <h1 className="max-w-4xl text-4xl font-bold tracking-tight text-white sm:text-6xl lg:text-7xl">
