@@ -8,7 +8,7 @@ const experience = [
   },
   {
     title: "Software Engineer Intern",
-    organization: "Selene",
+    organization: "Selene Odds",
     date: "Summer 2026",
     location: "Remote",
     description: "Extending the prediction market",
