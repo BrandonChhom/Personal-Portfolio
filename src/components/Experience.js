@@ -30,7 +30,10 @@ export default function Experience() {
                   className="absolute top-2 left-2 h-3 w-3 -translate-x-1/2 rounded-full border-2 border-indigo-400 bg-slate-950 sm:left-3"
                 />
 
-                <div className="rounded-2xl border border-slate-800 bg-slate-900 p-7 shadow-sm transition duration-200 hover:border-indigo-500/40 hover:shadow-md">
+                <div
+                  tabIndex={0}
+                  className="group -mx-3 rounded-lg px-3 py-2 outline-none"
+                >
                   <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-start">
                     <div>
                       <h3 className="text-xl font-semibold text-white">
@@ -50,9 +53,13 @@ export default function Experience() {
                     </div>
                   </div>
 
-                  <p className="mt-6 max-w-4xl leading-7 text-slate-300">
-                    {role.description}
-                  </p>
+                  <div className="grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 ease-out group-hover:grid-rows-[1fr] group-focus-visible:grid-rows-[1fr]">
+                    <div className="overflow-hidden">
+                      <p className="max-w-4xl pt-6 leading-7 text-slate-300">
+                        {role.description}
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </Reveal>
             ))}

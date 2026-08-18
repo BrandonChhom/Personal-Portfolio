@@ -5,7 +5,7 @@ import { GitHubIcon, LinkedInIcon } from "./icons";
 export default function Hero() {
   return (
     <section className="relative overflow-hidden">
-      <div className="relative mx-auto grid max-w-6xl items-center gap-12 px-6 py-16 sm:py-20 lg:min-h-[calc(100svh-65px)] lg:grid-cols-[1fr_360px]">
+      <div className="relative mx-auto grid max-w-6xl items-center gap-12 px-6 py-16 sm:py-20 lg:min-h-svh lg:grid-cols-[1fr_360px]">
         <Reveal>
           <p className="mb-5 text-sm font-semibold uppercase tracking-[0.2em] text-indigo-400">
             <span className="text-slate-300">
@@ -25,42 +25,63 @@ export default function Hero() {
             looking for software engineering internship opportunities.
           </p>
 
-          <div className="mt-9 flex flex-wrap items-center gap-4">
-            <a
-              href="#projects"
-              className="w-full rounded-full border border-slate-700 px-6 py-3 text-center font-medium text-slate-200 transition duration-200 hover:border-indigo-400 hover:text-indigo-400 sm:w-auto"
-            >
-              Projects
-            </a>
+          <div className="mt-9 flex flex-wrap items-center gap-x-6 gap-y-4">
+            <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-sm font-medium text-slate-300">
+              <a
+                href="#experience"
+                className="transition-colors duration-200 hover:text-indigo-400"
+              >
+                Experience
+              </a>
+              <span className="text-slate-600">/</span>
 
-            <a
-              href="/resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full rounded-full border border-slate-700 px-6 py-3 text-center font-medium text-slate-200 transition duration-200 hover:border-indigo-400 hover:text-indigo-400 sm:w-auto"
-            >
-              Résumé
-            </a>
+              <a
+                href="#projects"
+                className="transition-colors duration-200 hover:text-indigo-400"
+              >
+                Projects
+              </a>
+              <span className="text-slate-600">/</span>
 
-            <a
-              href="https://linkedin.com/in/brandon-chhom"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="LinkedIn"
-              className="flex h-12 w-12 items-center justify-center rounded-full border border-slate-700 text-slate-200 transition duration-200 hover:border-indigo-400 hover:text-indigo-400"
-            >
-              <LinkedInIcon className="h-5 w-5" />
-            </a>
+              <a
+                href="#contact"
+                className="transition-colors duration-200 hover:text-indigo-400"
+              >
+                Contact
+              </a>
+              <span className="text-slate-600">/</span>
 
-            <a
-              href="https://github.com/BrandonChhom"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="GitHub"
-              className="flex h-12 w-12 items-center justify-center rounded-full border border-slate-700 text-slate-200 transition duration-200 hover:border-indigo-400 hover:text-indigo-400"
-            >
-              <GitHubIcon className="h-5 w-5" />
-            </a>
+              <a
+                href="/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transition-colors duration-200 hover:text-indigo-400"
+              >
+                Résumé
+              </a>
+            </div>
+
+            <div className="flex items-center gap-4">
+              <a
+                href="https://linkedin.com/in/brandon-chhom"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+                className="flex h-9 w-9 items-center justify-center rounded-full border border-slate-700 text-slate-200 transition duration-200 hover:border-indigo-400 hover:text-indigo-400"
+              >
+                <LinkedInIcon className="h-4 w-4" />
+              </a>
+
+              <a
+                href="https://github.com/BrandonChhom"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+                className="flex h-9 w-9 items-center justify-center rounded-full border border-slate-700 text-slate-200 transition duration-200 hover:border-indigo-400 hover:text-indigo-400"
+              >
+                <GitHubIcon className="h-4 w-4" />
+              </a>
+            </div>
           </div>
         </Reveal>
 

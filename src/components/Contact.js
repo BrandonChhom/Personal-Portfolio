@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <section id="contact" className="scroll-mt-24 px-6 py-16 sm:py-24">
       <Reveal className="mx-auto max-w-6xl">
-        <SectionHeading number="04" label="Contact" />
+        <SectionHeading number="03" label="Contact" />
 
         <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
           I am interested in software engineering opportunities and would be
