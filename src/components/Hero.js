@@ -5,7 +5,7 @@ import { GitHubIcon, LinkedInIcon } from "./icons";
 export default function Hero() {
   return (
     <section className="relative overflow-hidden">
-      <div className="relative mx-auto grid max-w-6xl items-center gap-12 px-6 py-16 sm:py-20 lg:min-h-svh lg:grid-cols-[1fr_360px]">
+      <div className="relative mx-auto grid max-w-6xl items-center gap-12 px-6 py-16 sm:py-20 lg:grid-cols-[1fr_360px]">
         <Reveal>
           <p className="mb-5 text-sm font-semibold uppercase tracking-[0.2em] text-indigo-400">
             <span className="text-slate-300">
